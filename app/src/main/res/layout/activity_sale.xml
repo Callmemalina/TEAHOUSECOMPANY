@@ -40,7 +40,8 @@
                 <TextView
                     android:layout_width="117dp"
                     android:layout_height="wrap_content"
-                    android:text="Ice tea with aloe - 1 Kg"/>
+                    android:text="Ice tea with aloe - 1 Kg"
+                    android:padding="2dp"/>
 
                 <ImageView
                     android:layout_width="120dp"
@@ -73,7 +74,8 @@
                 <TextView
                     android:layout_width="117dp"
                     android:layout_height="wrap_content"
-                    android:text="Ice tea with lemon an ginger - 1 Kg"/>
+                    android:text="Ice tea with ginger - 1 Kg"
+                    android:padding="2dp"/>
 
                 <ImageView
                     android:layout_width="120dp"
@@ -106,7 +108,8 @@
                 <TextView
                     android:layout_width="117dp"
                     android:layout_height="wrap_content"
-                    android:text="Ice tea with apple - 1 Kg"/>
+                    android:text="Ice tea with apple - 1 Kg"
+                    android:padding="2dp"/>
 
                 <ImageView
                     android:layout_width="120dp"
@@ -149,7 +152,8 @@
             <TextView
                 android:layout_width="117dp"
                 android:layout_height="wrap_content"
-                android:text="Ice tea with fruit - 1 Kg"/>
+                android:text="Ice tea with fruit - 1 Kg"
+                android:padding="2dp"/>
 
             <ImageView
                 android:layout_width="120dp"

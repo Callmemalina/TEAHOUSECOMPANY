@@ -1,44 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.justjava.MainActivity"    >
+    tools:context="com.example.android.justjava.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5CAC14"
+            android:padding="6dp"
+            android:paddingBottom="3dp"
+            android:text="About Us"
+            android:textColor="#FFF8F8"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  In a steadily-growing European speciality tea and coffee market, TeaCompany is proud to be recognised and respected as a major importer, blender, wholesaler and exporter of the finest teas and speciality coffees. In addition, TeaCompany sells plantation cocoa, chocolate and an impressive range of related accessories, most of which are custom-made designs. \n\n
+
+  We constantly strive to innovate and create new beverages to meet consumer expectations and changing tastes. Our wide range covers everyday, traditional and speciality teas, as well as fruit and herbal infusions that are sure to delight the taste buds.\n\n
+
+  Moreover, TeaCompany is a producer of speciality coffee, prized by consumers for its unique quality, specific taste and excellent character. In fact, we have become one of the greatest coffee roasters on the home market. True connoisseurs can revel in the micro-lots of coffee we supply – sought-after beans from world-class growers.\n\n
+
+  In addition to the accessories mentioned above, including those unique to us with the TeaCompany Design logo, a great selection of gift packs is available, and the possibility exists for creating customised ones to order."
+            android:padding="4dp"
+            android:layout_marginTop="6dp"
+            />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="About Us"
-            android:textSize="24sp"/>
+            android:text="Headquarters"
+            android:textColor="#5CAC14"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            android:paddingLeft="4dp"/>
 
-        <LinearLayout
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/darker_gray" >
+        </View>
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
+            android:text=" TeaCompany, spol. s r. o.\n
+K Teplinám 663\n
+763 15  Slušovice\n\n
 
+Czech Republic\n\n
 
+VAT ID NO.: CZ4943885281\n\n
 
+Tel.: +420 5587 1257 1181\n
+Fax: +420 5577 1274 1816\n
+Email: export@teacompany.cz"
 
+            android:padding="4dp"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find Us on Map"
+            android:textColor="#5CAC14"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            android:paddingLeft="4dp"/>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/darker_gray" >
+        </View>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="345dp"
+            android:src="@drawable/map_of_tea"
+            />
 
-
-        </LinearLayout>
-
-
-
-
-
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="2dp"
+            android:background="#5CAC14"
+            android:onClick="back"
+            android:text="Back" />
 
 
 

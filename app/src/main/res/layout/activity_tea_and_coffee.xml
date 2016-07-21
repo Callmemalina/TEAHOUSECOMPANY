@@ -27,7 +27,8 @@
             android:layout_marginTop="12dp"
             android:paddingLeft="4dp"
             android:text="Tea"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textColor="#0076A3"/>
 
         <View
             android:layout_width="match_parent"
@@ -276,7 +277,8 @@
             android:layout_marginTop="12dp"
             android:paddingLeft="4dp"
             android:text="Coffee"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textColor="#0076A3"/>
 
         <View
             android:layout_width="match_parent"
@@ -371,6 +373,16 @@
 
 
         </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:background="#0076A3"
+            android:layout_gravity="right"
+            android:layout_margin="2dp"
+            android:onClick="back"
+            />
 
 
     </LinearLayout>
